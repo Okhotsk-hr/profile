@@ -15,7 +15,7 @@ include 'aboutme/aboutme.php';
 
 <body>
     <h1><?= $name ?></h1>
-
+    <?= $aboutme ?>
 </body>
 
 </html>
