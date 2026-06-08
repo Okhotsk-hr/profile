@@ -16,6 +16,9 @@ include 'aboutme/aboutme.php';
 <body>
     <h1><?= $name ?></h1>
     <?= $aboutme ?>
+
+    <?php include 'hackathon/hackathon.php'; ?>
+    
 </body>
 
 </html>
