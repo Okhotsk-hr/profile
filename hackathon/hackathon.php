@@ -22,13 +22,28 @@ if ($fp !== false) {
 	fclose($fp);
 }
 
-$hacks="";
-for($i=0;$i<count($hacks_list);$i++){
-    $hacks .= "<h1>" . $hacks_list[$i][0] . "</h1>";
-    $hacks .= "<h2>" . $hacks_list[$i][1] . "</h2>";
-}
 
 ?>
 <h1><?= $hackathon ?></h1>
-<?= $hacks ?>
 
+<?php
+for($i=0;$i<count($hacks_list);$i++){
+    ?>
+    <h1><?= $hacks_list[$i][0] ?></h1>
+    <h2><?= $hacks_list[$i][1] ?></h2>
+    <h3><?= $hacks_list[$i][2] ?></h3>
+
+    <div>
+        <p><a href="<?= $hacks_list[$i][3] ?>" target="_blank"><?= $hacks_list[$i][0] ?></a></p>
+        <p>期間：<?= $hacks_list[$i][1] ?></p>
+        <p>会場：<?= $hacks_list[$i][2] ?></p>
+        <p>チーム：<?= $hacks_list[$i][4] ?>（<?= $hacks_list[$i][5] ?>）</p>
+        <p><a href="<?= $hacks_list[$i][7] ?>" target="_blank"><?= $hacks_list[$i][6] ?></a></p>
+        <p><?= $hacks_list[$i][8] ?></p>
+    </div>
+
+
+    <?php
+}
+
+?>
