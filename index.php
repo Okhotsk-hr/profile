@@ -1,6 +1,5 @@
 <?php
 //include 'aboutme/secret.php';
-include 'aboutme/aboutme.php';
 
 ?>
 <!DOCTYPE html>
@@ -15,7 +14,7 @@ include 'aboutme/aboutme.php';
 
 <body>
     <h1><?= $name ?></h1>
-    <?= $aboutme ?>
+    <?php include 'aboutme/aboutme.php' ?>
 </body>
 
 </html>
