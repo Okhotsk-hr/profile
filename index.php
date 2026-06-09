@@ -1,6 +1,5 @@
 <?php
 //include 'aboutme/secret.php';
-include 'aboutme/aboutme.php';
 
 ?>
 <!DOCTYPE html>
@@ -49,11 +48,10 @@ include 'aboutme/aboutme.php';
 </head>
 
 <body>
-    <h1><?= $name ?></h1>
-    <?= $aboutme ?>
-
+  
+    <?php include 'aboutme/aboutme.php' ?>
     <?php include 'hackathon/hackathon.php'; ?>
-
+  
 </body>
 
 </html>
