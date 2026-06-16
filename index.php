@@ -53,6 +53,7 @@
     <?php include 'hackathon/hackathon.php'; ?>
     <?php include 'ict_ex/ict_ex.php'; ?>
     <?php include 'ent/ent.php'; ?>
+    <?php include 'lt/lt.php'; ?>
 
 </body>
 
