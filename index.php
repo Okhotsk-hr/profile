@@ -1,6 +1,8 @@
 <?php
 //include 'aboutme/secret.php';
 
+include 'db/top_connect.php';
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
