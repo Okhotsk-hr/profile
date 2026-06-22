@@ -52,6 +52,7 @@ include 'db/top_connect.php';
 <body>
 
     <?php include 'aboutme/aboutme.php' ?>
+    <?php include 'lang/lang.php'; ?>
     <?php include 'hackathon/hackathon.php'; ?>
     <?php include 'ict_ex/ict_ex.php'; ?>
     <?php include 'ent/ent.php'; ?>
