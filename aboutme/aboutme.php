@@ -2,7 +2,7 @@
 
 include 'aboutme/secret.php';
 
-$language = "BASIC, PHP, HTML, CSS, JavaScript, Python, C++, Java, GO, Kotlin, Swift";
+$language = "BASIC, PHP, HTML, CSS, JavaScript, Python, C++, Java, Go, Kotlin, Swift";
 $hardware = "IchigoJam, micro:bit, Arduino, ESP32";
 $github = "Okhotsk-hr";
 $github_link = "https://github.com/Okhotsk-hr";
