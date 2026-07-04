@@ -57,6 +57,7 @@ include 'db/top_connect.php';
     <?php include 'ict_ex/ict_ex.php'; ?>
     <?php include 'ent/ent.php'; ?>
     <?php include 'lt/lt.php'; ?>
+    <?php include 'event/event.php'; ?>
 
 </body>
 

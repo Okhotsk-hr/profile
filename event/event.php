@@ -1,5 +1,5 @@
 <?php
-$lang = "言語";
+$lang = "イベント運営";
 $lang_list = [[], []];
 
 #1 ファイルの読み込み
@@ -31,9 +31,9 @@ if ($fp !== false) {
     ?>
 
         <div class="card" style="background:#ff6347;">
-            <p><?= $lang_list[$i][0] ?></a></p>
+            <p><a href="<?= $lang_list[$i][2] ?>"></a><?= $lang_list[$i][0] ?></a></p>
             <p><?= $lang_list[$i][1] ?></p>
-            <p><?= $lang_list[$i][2] ?></p>
+            <p><?= $lang_list[$i][3] ?></p>
         </div>
 
 
